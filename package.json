@@ -1,11 +1,15 @@
 {
   "name": "shopinc_frontend",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "description": "The frontend codebase for the shop inc. application.",
+  "author": "Dave Mathews Njeru",
+  "license": "MIT",
   "dependencies": {
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0",
-    "react-scripts": "2.1.3"
+    "node-sass": "~4.11.0",
+    "react": "~16.8.0",
+    "react-dom": "~16.8.0",
+    "react-scripts": "~2.1.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -21,5 +25,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "engines": {
+    "yarn": "1.12.x"
+  }
 }
